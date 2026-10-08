@@ -36,6 +36,21 @@ MANIFEST
 pip-log.txt
 pip-delete-this-directory.txt
 
+# Data (don't commit datasets; document how to download them)
+data/
+*.mat
+*.edf
+*.h5
+*.npy
+*.npz
+
+# OS and editor files
+.DS_Store
+.idea/
+
+# Keys
+*.pem
+
 # Unit test / coverage reports
 htmlcov/
 .tox/
